@@ -1,0 +1,53 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+.container {
+  width: 1070px;
+  height: 100vh;
+  position: relative;
+  margin: 0 auto;
+}
+
+.container input {
+  border: 1px solid #000;
+  border-radius: 4px;
+  height: 36px;
+  padding: 4px;
+  width: 300px;
+}
+
+button {
+  height: 36px;
+  width: 100px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: rgba(95, 158, 160, .4);
+  border: none;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: cadetblue;
+}
+
+.logo,
+.input {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.logo {
+  height: 130px;
+}
